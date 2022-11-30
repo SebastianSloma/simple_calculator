@@ -1,15 +1,15 @@
-wybór = input("dodawanie, odejmowanie. mnożenie, dzielenie: ")
+choice = input("addition, subtraction, multiplication, divide: ")
 
-a = int(input("pierwsza liczba: "))
-b = int(input("druga liczba: "))
+a = int(input("first number: "))
+b = int(input("second number: "))
 
-if (wybór == "dodawanie"):
+if (choice == "addition"):
     print(a + b)
-elif(wybór == 'odejmowanie'):
+elif (choice == 'subtraction'):
     print(a - b)
-elif(wybór == 'mnożenie'):
+elif (choice == 'multiplication'):
     print(a * b)
-elif(wybór == 'dzielenie'):
+elif (choice == 'divide'):
     print(a / b)
 else:
-    print("zły wybór")
+    print("wrong choice")
